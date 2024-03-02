@@ -485,6 +485,31 @@ nav li a:hover {
     height: 250px;
   }
 
+  /* why us design */
+  .why-us {
+    margin-top: 30px;
+  }
+
+  .why-us h2 {
+    text-align: center;
+  }
+
+  .why-us > p {
+    max-width: 810px;
+    margin: 20px auto;
+  }
+
+  .why-us-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .why-us-card {
+    max-width: 500px;
+  }
+
   /* main design ends here */
 }
 /* laptop design ends here */
