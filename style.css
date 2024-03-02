@@ -1,0 +1,110 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap");
+
+/* resize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* colors */
+:root {
+  --primaryColor: #ff5400;
+  --secondaryColor: rgba(19, 19, 24, 0.5);
+  --thirdColor: #5a5a5d;
+  --navColor: #424247;
+}
+
+/* mobile design starts here */
+
+/* container */
+.container {
+  margin: 0 5%;
+}
+
+/* header design starts here */
+
+/* nav design */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h2 {
+  color: var(--primaryColor);
+  font-size: 30px;
+}
+
+.fa-bars {
+  font-size: 24px;
+  position: relative;
+}
+
+.fa-bars:hover ~ ul {
+  display: block;
+}
+
+ul {
+  display: none;
+  position: absolute;
+  right: 5%;
+  text-align: right;
+}
+
+nav li a {
+  color: var(--navColor);
+  font-size: 18px;
+}
+
+nav li a:hover {
+  color: var(--primaryColor);
+}
+
+/* header design ends here */
+
+/* mobile design ends here */
+
+/* laptop design starts here */
+@media screen and (min-width: 992px) {
+  /* container */
+  .container {
+    margin: 0 10%;
+  }
+
+  /* header design starts here */
+
+  /* nav design */
+  .fa-bars {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  li a {
+    font-size: 30px;
+  }
+
+  ul li:nth-child(1) a {
+    color: var(--primaryColor);
+  }
+
+  /* header design ends here */
+}
+/* laptop design ends here */
