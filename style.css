@@ -19,6 +19,19 @@
   --navColor: #424247;
 }
 
+/* button */
+.btn {
+  width: 200px;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--primaryColor);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
 /* mobile design starts here */
 
 /* container */
@@ -162,23 +175,132 @@ nav li a:hover {
   margin: 10px;
 }
 
-.btn {
-  width: 200px;
-  padding: 15px 40px;
-  font-size: 20px;
-  font-weight: 700;
-  color: #fff;
-  background-color: var(--primaryColor);
-  border: none;
-  outline: none;
-  border-radius: 10px;
-}
-
 .popular-img {
   margin: 20px 0;
 }
 .popular-img img {
   width: 100%;
+}
+
+/* destination design */
+.destination {
+  margin: 10px 0;
+}
+
+.destination-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.destination-text p {
+  color: var(--thirdColor);
+  margin: 20px 0;
+}
+
+.destination-img img {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 250px;
+}
+
+.destination-img .maldives {
+  position: relative;
+}
+
+.destination-img .indonesia {
+  position: relative;
+}
+
+.destination-img .lanka {
+  position: relative;
+}
+
+.destination-img .america {
+  position: relative;
+}
+
+.destination-img .kashmir {
+  position: relative;
+}
+
+.destination-img .bangladesh {
+  position: relative;
+}
+
+.destination-img .bandarban {
+  position: relative;
+}
+
+.destination-img .maldives::after {
+  content: "Maldives";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.destination-img .indonesia::after {
+  content: "Indonesia";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.destination-img .lanka::after {
+  content: "Sri Lanka";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.destination-img .america::after {
+  content: "North America";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.destination-img .kashmir::after {
+  content: "Kashmir";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.destination-img .bangladesh::after {
+  content: "Bangladesh";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.destination-img .bandarban::after {
+  content: "Bandarban";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 /* main design ends here */
