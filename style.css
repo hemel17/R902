@@ -40,7 +40,6 @@ nav {
 .logo a {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .logo h2 {
@@ -75,6 +74,66 @@ nav li a:hover {
 
 /* header design ends here */
 
+/* main design starts here */
+
+/* explore design */
+.explore {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(./Images/image\(1\).png);
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  margin: 20px 0;
+}
+
+.explore-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.explore-content h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.explore-content p {
+  font-size: 18px;
+  margin-bottom: 36px;
+}
+
+.explore-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.explore-content input {
+  width: 250px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 20px 40px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.explore-content button {
+  width: 250px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: var(--primaryColor);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+/* main design ends here */
+
 /* mobile design ends here */
 
 /* laptop design starts here */
@@ -92,6 +151,7 @@ nav li a:hover {
   }
 
   ul {
+    position: inherit;
     display: flex;
     justify-content: space-between;
     gap: 16px;
