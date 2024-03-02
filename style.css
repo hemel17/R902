@@ -586,6 +586,27 @@ nav li a:hover {
     max-width: 500px;
   }
 
+  /* newsletter design */
+  .newsletter {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .newsletter-text {
+    padding: 2%;
+  }
+
+  .newsletter-text form {
+    margin: 0;
+  }
+
+  .newsletter-img .newsletter-ad {
+    bottom: 15%;
+  }
+
   /* main design ends here */
 }
 /* laptop design ends here */
