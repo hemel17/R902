@@ -54,6 +54,9 @@ nav {
 
 .fa-bars:hover ~ ul {
   display: block;
+  background-color: #eee;
+  padding: 20px 40px;
+  border-radius: 10px;
 }
 
 ul {
@@ -146,7 +149,7 @@ nav li a:hover {
   /* header design starts here */
 
   /* nav design */
-  .fa-bars {
+  #bar {
     display: none;
   }
 
@@ -164,7 +167,43 @@ nav li a:hover {
   ul li:nth-child(1) a {
     color: var(--primaryColor);
   }
-
   /* header design ends here */
+
+  /* main design starts here */
+
+  /* explore design */
+  .explore{
+    margin: 40px 0;
+  }
+
+  .explore-content h1{
+    font-size: 48px;
+  }
+
+  .explore-content p{
+    margin: auto;
+    max-width: 700px;
+  }
+
+  .explore-content {
+    padding: 100px 40px;
+  }
+
+  .explore-content form {
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+  } 
+
+  .explore-content input{
+    width: 220px;
+    margin: 0;
+  }
+
+  .explore-content button{
+    width: 220px;
+  }
+
+  /* main design ends here */
 }
 /* laptop design ends here */
