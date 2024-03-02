@@ -59,7 +59,7 @@ nav {
   border-radius: 10px;
 }
 
-ul {
+nav ul {
   display: none;
   position: absolute;
   right: 5%;
@@ -135,6 +135,51 @@ nav li a:hover {
   border-radius: 10px;
 }
 
+/* popular design */
+.popular {
+  margin: 20px 0;
+}
+
+.popular-text {
+  color: var(--thirdColor);
+  font-size: 18px;
+}
+
+.popular-text h2 {
+  font-size: 32px;
+  font-weight: 700px;
+  margin: 10px 0;
+  color: #000;
+}
+
+.popular-text ul {
+  margin-top: 20px;
+}
+
+.popular-text ul li {
+  list-style-type: circle;
+  margin: 10px;
+}
+
+.btn {
+  width: 200px;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--primaryColor);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.popular-img {
+  margin: 20px 0;
+}
+.popular-img img {
+  width: 100%;
+}
+
 /* main design ends here */
 
 /* mobile design ends here */
@@ -172,15 +217,15 @@ nav li a:hover {
   /* main design starts here */
 
   /* explore design */
-  .explore{
+  .explore {
     margin: 40px 0;
   }
 
-  .explore-content h1{
+  .explore-content h1 {
     font-size: 48px;
   }
 
-  .explore-content p{
+  .explore-content p {
     margin: auto;
     max-width: 700px;
   }
@@ -193,14 +238,14 @@ nav li a:hover {
     margin-top: 40px;
     flex-direction: row;
     justify-content: space-between;
-  } 
+  }
 
-  .explore-content input{
+  .explore-content input {
     width: 220px;
     margin: 0;
   }
 
-  .explore-content button{
+  .explore-content button {
     width: 220px;
   }
 
