@@ -472,6 +472,50 @@ nav li a:hover {
 
 /* main design ends here */
 
+footer{
+    background-color: rgb(238, 238, 238);
+    padding: 5%;
+    text-align: center;
+}
+
+footer .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 10px;
+    color: var(--primaryColor);
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: var(--thirdColor);
+}
+
+footer .social{
+    font-size: 24px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer i{
+    cursor: pointer;
+}
+
+hr{
+    color: var(--thirdColor);
+    margin-bottom: 20px;
+}
+
+/* footer design starts here */
+
+
+/* footer design ends here */
+
 /* mobile design ends here */
 
 /* laptop design starts here */
